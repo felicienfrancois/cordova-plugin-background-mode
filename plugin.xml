@@ -9,7 +9,7 @@
 
     <description>Prevent apps from going to sleep in background.</description>
 
-    <repo>https://github.com/red-mobile/cordova-plugin-background-mode.git</repo>
+    <repo>https://github.com/okhiroyuki/cordova-plugin-background-mode.git</repo>
 
     <keywords>appplant, background</keywords>
 
@@ -52,7 +52,9 @@
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.WAKE_LOCK" />
-            <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+			<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+            <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+            <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
         </config-file>
 
         <source-file
@@ -67,7 +69,13 @@
             src="src/android/ForegroundService.java"
             target-dir="src/de/appplant/cordova/plugin/background" />
         <framework src="androidx.core:core:$ANDROIDX_CORE_VERSION" />
-        <preference name="ANDROIDX_CORE_VERSION" default="1.3.2"/>
+        <preference name="ANDROIDX_CORE_VERSION" default="1.6.0"/>
+
+        <resource-file src="src/android/res/drawable/power.xml" target="res/drawable/power.xml" />
+        <resource-file src="src/android/res/drawable-hdpi/power.png" target="res/drawable-hdpi/power.png" />
+        <resource-file src="src/android/res/drawable-mdpi/power.png" target="res/drawable-mdpi/power.png" />
+        <resource-file src="src/android/res/drawable-xhdpi/power.png" target="res/drawable-xhdpi/power.png" />
+        <resource-file src="src/android/res/drawable-xxhdpi/power.png" target="res/drawable-xxhdpi/power.png" />
     </platform>
 
     <!-- browser -->
