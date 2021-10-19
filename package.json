@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-mobile/cordova-plugin-background-mode.git"
+    "url": "git+https://github.com/okhiroyuki/cordova-plugin-background-mode.git"
   },
   "keywords": [
     "appplant",
@@ -28,7 +28,7 @@
   "author": "Hiroyuki Okada",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/red-mobile/cordova-plugin-background-mode/issues"
+    "url": "https://github.com/okhiroyuki/cordova-plugin-background-mode/issues"
   },
-  "homepage": "https://github.com/red-mobile/cordova-plugin-background-mode#readme"
+  "homepage": "https://github.com/okhiroyuki/cordova-plugin-background-mode#readme"
 }
