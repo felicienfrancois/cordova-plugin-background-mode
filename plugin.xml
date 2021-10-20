@@ -2,20 +2,20 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="@red-mobile/cordova-plugin-background-mode"
-        version="1.0.4">
+        id="felicienfrancois/cordova-plugin-background-mode"
+        version="1.0.5">
 
     <name>BackgroundMode</name>
 
     <description>Prevent apps from going to sleep in background.</description>
 
-    <repo>https://github.com/okhiroyuki/cordova-plugin-background-mode.git</repo>
+    <repo>https://github.com/felicienfrancois/cordova-plugin-background-mode.git</repo>
 
     <keywords>appplant, background</keywords>
 
     <license>Apache 2.0</license>
 
-    <author>Hiroyuki Okada</author>
+    <author>Felicien Francois</author>
 
     <!-- dependencies -->
     <dependency id="cordova-plugin-device" />
