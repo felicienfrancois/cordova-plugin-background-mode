@@ -1,16 +1,16 @@
 {
-  "name": "@red-mobile/cordova-plugin-background-mode",
-  "version": "1.0.4",
+  "name": "cordova-plugin-background-mode",
+  "version": "1.0.5",
   "description": "Prevent apps from going to sleep in background.",
   "cordova": {
-    "id": "@red-mobile/cordova-plugin-background-mode",
+    "id": "cordova-plugin-background-mode",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/okhiroyuki/cordova-plugin-background-mode.git"
+    "url": "git+https://github.com/felicienfrancois/cordova-plugin-background-mode.git"
   },
   "keywords": [
     "appplant",
@@ -25,10 +25,10 @@
     "android-sdk": ">=16",
     "windows-sdk": ">=10.0.14393.0"
   },
-  "author": "Hiroyuki Okada",
+  "author": "Felicien Francois",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/okhiroyuki/cordova-plugin-background-mode/issues"
+    "url": "https://github.com/felicienfrancois/cordova-plugin-background-mode/issues"
   },
-  "homepage": "https://github.com/okhiroyuki/cordova-plugin-background-mode#readme"
+  "homepage": "https://github.com/felicienfrancois/cordova-plugin-background-mode#readme"
 }
